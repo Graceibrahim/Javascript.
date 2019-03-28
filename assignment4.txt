@@ -1,0 +1,52 @@
+ Write a program to calculate purchases from a kiosk. For e.g. given the fruit name 'orange' the program should fetch its price (30.00) and multiply with the quantity requested (2) and return total cost in this printed format (2 Oranges for KES 60.00). 
+
+calculateFruitCost(fruitName, quantity)
+
+For example, calculateFruitCost('orange', 2) should return "2 Oranges for KES 60.00"
+
+
+                           
+
+
+
+
+
+                        fruits= {'banana':20,'peach':40,'orange':30}
+
+                           {banana: 20, peach: 40, orange: 30}
+
+                       
+                        var quantity=2
+
+                        undefined
+
+
+                        var price= fruits['orange']*2
+
+
+                        undefined
+
+
+                        price
+
+                        60
+
+
+                        function calculateFruitCost (Name,Quan) {
+
+                        fruits=
+    
+                            {'bananas':20,'peach':40,'orange':30};
+
+                        console.log(quantity + ' ' + Name + ' for KES ' + price);}
+
+
+                        undefined 
+
+
+                        calculateFruitCost('oranges',2);
+ 
+                        2 oranges for KES 60
+
+
+                        undefined                      
