@@ -1,0 +1,71 @@
+Write a program to determine the grade of a student as below:
+80 and above -> A
+70 - 79 -> B
+60 - 69 -> C
+50 - 59 -> D
+0 - 40 -> E
+Anything else -> F
+Your program should contain a function getGrade() that requires marks as a parameter i.e.
+getGrade(marks) e.g. 
+var marks = 84;
+getGrade(marks) returns "A" 
+
+
+
+var marks= {"80-100": "A", "70-79": "B", "60-69": "C", "50-59": "D", "0-40":"E", "anything else":"F"};
+
+
+undefined
+function getGrade(marks){
+
+if (marks>=80)
+{
+return grade="A";
+
+}
+else if (marks>=70){
+
+return grade="B";
+
+}
+
+else if (marks>=60){
+
+return grade="C";
+
+}
+
+else if (marks>=50){
+
+return grade="D";
+}
+
+else if (marks>=0){
+
+return grade="E";
+
+}
+
+else{
+
+return grade="F";
+
+}
+
+}
+undefined
+
+getGrade(60)
+
+"C"
+getGrade(13)
+
+"E"
+
+getGrade(-8)
+
+"F"
+
+getGrade(84)
+
+"A"
