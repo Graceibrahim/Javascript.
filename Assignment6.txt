@@ -1,0 +1,28 @@
+var kiosk=
+{
+firstFruit:"Mango", secondFruit:"Apple",
+
+
+get fruitName()
+{ 
+
+return fruitname;
+
+};
+
+
+set fruitName(mango);
+{
+
+return this.secondfruit+" "+ this.firstfruit+"mango";
+
+}
+
+}
+
+ 
+
+undefined
+
+kiosk.fruitname()
+

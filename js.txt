@@ -1,0 +1,3 @@
+The null value is a primitive value that represents the empty, or non-existent reference. It can also be assigned to a variable as a representation of no value.
+ Undefined means a variable has been declared, but the value of that variable has not yet been defined.
+Undefined and null are equal in value but different in type.
