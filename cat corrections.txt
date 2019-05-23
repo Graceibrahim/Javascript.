@@ -1,0 +1,115 @@
+class Mkulima {
+  
+  constructor() {
+    this.farms = [];
+    this.vendors = [];
+    this.products = [];
+    this.orders = [];
+  }
+  addFarm(farmId, name, farmer, phone, address){
+  let farm={
+    farmId:farmId,
+    name:name,
+    farmer:farmer,
+    phone:phone,
+    address:address
+    }
+   this.farms.push(farm)
+  }
+    getFarm(farmId){
+   for(var i=0;i<this.farms.length;i++){
+  let farm=this.farms[i];
+     if(farm.farmId===farmId){
+       return farm
+     }
+ }
+}
+ removeFarm(farmId){
+    let farm=this.getFarm(farmId)
+    let index=this.farms.indexOf(farm);
+    this.farms.splice(index,2)
+}
+  updateFarm(farmId, name, farmer, phone, address){
+    let farm={
+    farmId:farmId,
+    name:name,
+    farmer:farmer,
+    phone:phone,
+    address:address
+    }
+   this.farms.push(farm)
+  
+    
+   }
+  addVendor(vendorId, name, phone){
+    let vendor={
+      vendorId:vendorId,
+      name:name,
+      phone:phone
+    }
+    this.vendors.push(vendor)
+    }
+   getVendor(vendorId){
+     for(var i=0;i<this.vendor.length;i++){
+     let vendor=this.vendor[i];
+     if(vendor.vendorId===vendorId){
+       return vendor
+     }
+ }
+}
+  removeVendor(vendorId){
+    let vendor=this.getVendor(vendorId)
+    let index=this.vendor.indexOf(vendor);
+    this.vendors.splice(index,1)
+  }
+  updateVendor(vendorId,name,phone){
+    let vendor={
+      vendorId:vendorId,
+      name:name,
+      phone:phone
+    }
+    this.vendors.push(vendor)
+    
+    
+  }
+  addProduct(productId, name, price){
+    let product={
+      productId:productId,
+      name:name,
+      phone:price
+    }
+    this.products.push(product)
+}
+   removeProduct(productId){
+    let product=this.getFarm(productId)
+    let index=this.product.indexOf(product);
+    this.product.splice(index,1)
+}
+  updateProduct(productId,name,price){
+    let product={
+      productId:productId,
+      name:name,
+      phone:price
+    }
+    this.products.push(product)
+    
+  } 
+  getProducts (getProduct(productId){
+    let product={
+      productId:productId,
+   
+    }
+   printProducts(printProducts(){
+     console.log products       
+                 }
+}
+
+ 
+var mkulima=new Mkulima();
+mkulima.addFarm(1,"Delamere","Grace","0700000000000","Thika")
+console.log(mkulima.farms)
+mkulima.updateFarm(2,"jalas","Ely","079666968596","kiambu")
+console.log(mkulima.farms)
+var product=new Mkulima();
+product.addProduct(1,"maize","2000",)
+console.log(product.products)
