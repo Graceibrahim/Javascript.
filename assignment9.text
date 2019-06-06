@@ -1,0 +1,29 @@
+var body = document.body
+body .style.backgroundColor = "silver"
+
+var styling = document.createElement("style")
+styling.innerHTML = ".bg-color{color: green;}"
+
+var h1 = document.getElementById("title")
+h1.appendChild(styling)
+
+var titles = document.getElementById("title")
+var h1 = title.parentNode
+titles.setAttribute("class","bg-color")
+
+
+var body = document.body
+var paragraphs = document.getElementsByTagName("h3")
+paragraphs[0].innerHTML
+var heading = document.getElementsByTagName("p")
+body .style.textTransform = "uppercase"
+
+var fruits = document.createElement("fruli")
+list.innerHTML = "berries"
+var ul = document.getElementById("fruList")
+ul.appendChild(fruits)
+
+var veggies = document.createElement("li")
+list2.innerHTML = "Dhania"
+var ul = document.getElementById("vegList")
+ul.appendChild(list2)
