@@ -1,0 +1,32 @@
+var body = document.body
+body.style.backgroundColor = "silver"
+
+var h1=document.getElementById("title")
+h1.style.color="green"
+
+var h3 = document.getElementById("Heading3");
+titletwo.innerHTML =titletwo.innerHTML.toUpperCase();
+
+var h3 = document.getElementById("headingthree");
+titlethree.innerHTML =titlethree.innerHTML.toUpperCase();
+
+var fruit= document.createElement("li")
+fruit.innerHTML="Apple"
+var ul = document.getElementById("fruList")
+ul.appendChild(fruit)
+
+var fruit= document.createElement("li")
+fruit.innerHTML="berries"
+var ul = document.getElementById("fruList")
+ul.appendChild(fruit)
+
+
+var vegetables= document.createElement("li")
+vegetable.innerHTML="brocolli"
+var ul = document.getElementById("vegList")
+ul.appendChild(vegetables)
+
+var vegetable= document.createElement("li")
+vegetable.innerHTML="cauliflower"
+var ul = document.getElementById("vegList")
+ul.appendChild(vegetables)
